@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth ;
+  
+}
+/* nav bar style */
+ 
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus {
+    color: gold !important;
+}
+
+/* nav bar style */
+
+
+/* body{
+  
+
+} */
+
+body p{
+    font-size: 18px;
+}
+
+
+
+.name{
+    display: inline;
+    padding: 5px;
+    background-color:rgb(244, 182, 28);
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.profilecon{
+    margin-top: 8% !important;
+}
+
+/* icon style */
+
+.profile ul li a img{
+    margin-bottom: 5px;
+    
+    
+  
+}
+
+.profile  ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    
+   
+    
+}
+
+.profile ul li a{
+    border: 2px solid black;
+    border: none;
+    border-radius: 100%;
+    padding: 7px;  
+}
+
+.profile ul li a:hover, .profile ul li a:focus {
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+
+
+.profile  ul{
+    padding-left: 0% !important;
+}
+
+/* icon style */
+
+
+/* introduction style */
+
+.introduction-section{
+    margin-top: 10% ;
+}
+
+.education-section{
+    margin-top:10%  ;
+}
+
+.skills-section{
+    margin-top:10%  ;
+}
+
+.project-section{
+    margin-top: 10%;
+}
+
+.contact-section{
+    margin-top: 10%;
+}
+
+
+
+
+/* end introduction style */
+
+
+/* 
+project style */
+  
+.project {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.project-img:hover {
+    opacity: 0.7;
+}
+
+/* 
+project style end*/
+
+.contact-me ul li a img{
+    margin-bottom: 5px;
+   
+    
+  
+}
+
+.contact-me  ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 7px;
+    margin-right: 7px;
+  
+   
+    
+   
+    
+}
+
+.contact-me ul li a{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    border: none;  
+}
+
+.contact-me ul li a:hover, .contact-me ul li a:focus{
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);;
+}
+
+.contact-me  ul{
+    margin-right:30px  !important;
+}
+
+
+
+@media (max-width: 992px) {
+    .msg-me{
+        margin-top: 40px !important;
+    }
+  }
+
+  .card{
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    border: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+}
+
+textarea{
+    border: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+}
+
+footer{ 
+  
+        width: 100% !important;
+        padding: 3px;
+   
+    }
+
+    /* preloader style */
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+    
+    
+    header .container {
+        display:none;
+    }
+
+    @media (max-width:540px) {
+         .spinner-border{
+            margin-right: 40px;
+           
+         }
+    }
+
+    
+
+    /* preloader style  end*/
+
+
